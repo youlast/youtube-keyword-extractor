@@ -10,8 +10,6 @@ npm install youtube-keyword-extractor
 
 # Video Tags
 
-## How to Use It
-
 ## Example
 
 ```javascript
@@ -28,8 +26,6 @@ national geographic, nat geo, natgeo, animals, wildlife, science, explore, disco
 ```
 
 # Channel Tags
-
-## How to Use It
 
 ## Example
 

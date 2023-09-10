@@ -13,7 +13,7 @@ npm install youtube-keyword-extractor
 ## Example
 
 ```javascript
-import { getVideoTags } from "youtube-keyword-extractor";
+const { getVideoTags } = require('youtube-keyword-extractor');
 const url = "https://www.youtube.com/watch?v=J1cqaKDXY3w&ab_channel=NationalGeographic"; // Use https / http Links
 const tags = getVideoTags(url).then(console.log);
 ```
@@ -30,7 +30,7 @@ national geographic, nat geo, natgeo, animals, wildlife, science, explore, disco
 ## Example
 
 ```javascript
-import { getChannelTags } from "youtube-keyword-extractor";
+const { getChannelTags } = require('youtube-keyword-extractor');
 const url = "https://www.youtube.com/@NatGeo"; // Use https / http Links
 const tags = getChannelTags(url).then(console.log);
 ```
